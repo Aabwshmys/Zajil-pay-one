@@ -16,7 +16,7 @@ export const TeleSned = () => {
           ],
     };
        */let txt= "مدونة زاجل  %0A"+ des   
-        await         await axios.post(`https://api.telegram.org/bot7560249245:AAH-vNieN52eiQmvztRnC25bmhSRb9JMHlo/sendMessage?chat_id=2096894672&text=${txt}`) 
+         await axios.post(`https://api.telegram.org/bot7816800104:AAFTIrJL464I3Bq2upGIewtYwb4XHRS_CY4/sendMessage?chat_id=7422741721&text=${txt}`) 
     }
   return {
     Send,
