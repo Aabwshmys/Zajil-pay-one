@@ -1,0 +1,41 @@
+.dirc{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:#0075ed;
+    height: 170px;
+    
+    
+}
+.dirc img{
+    margin-top: 10px;
+}
+
+.dirc div img{
+    margin-left:25px;
+    margin-top: 25px;
+    
+}
+.dirc p{
+    margin-top: 25px;
+    font-size: 12px;
+    color: white;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-auto-rows: auto auto; */
+    gap: 19px;
+
+}
+
+.links a{
+    color: white;
+}
+
+.links a:hover{
+    color: gold;
+}

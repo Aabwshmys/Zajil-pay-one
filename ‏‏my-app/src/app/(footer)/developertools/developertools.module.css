@@ -1,0 +1,129 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1107px;
+}
+
+.main .back{
+    width: 412px;
+    height: 121vh;
+    background: linear-gradient(to top,#0075ed,transparent);
+    position: absolute;
+    top: 191px;
+}
+
+.main .continer{
+    position: absolute;
+    top: 231px;
+    width: 391.4px;
+    background-color: white;
+    box-shadow: 1px 10px 13px black;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 20px 0;
+    z-index: 2;
+}
+.main .continer .sec{
+    position: absolute;
+    top: -107px;
+    right: 10px;
+    color: rgb(25, 25, 25);
+    z-index: 2;
+}
+
+.main .continer .sec h1{
+    margin: 5px 0;
+    font-size: 20px;
+    animation: textpath 5s ease-in;
+}
+
+.main .continer .sec p{
+    margin: 5px 0;
+    font-size: 14px;
+    animation: textpath 5s ease-in;
+}
+
+.main .continer .sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.main .continer .sec2 h1{
+    font-size: 20px;
+    color: #0075ed;
+}
+.main .continer .sec2 p{
+    font-size: 14px;
+    width: 370px;
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.main .continer .sec3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.main .continer .sec3 h1{
+    color: gold;
+    margin:10px 0;
+}
+.main .continer .sec3 h3{
+    color: #0075ed;
+    margin:10px 0;
+}
+
+.main .continer .sec3 p{
+    font-size: 14px;
+}
+
+
+.main .continer .sec4{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.main .continer .sec4 h1{
+    color: gold;
+    margin:10px 0;
+}
+.main .continer .sec4 h3{
+    color: #0075ed;
+    margin:10px 0;
+}
+
+.main .continer .sec4 p{
+    font-size: 14px;
+}
+
+.main .continer .sec5{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.main .continer .sec5 h1{
+    color: gold;
+    margin:10px 0;
+}
+.main .continer .sec5 h3{
+    color: #0075ed;
+    margin:10px 0;
+}
+
+.main .continer .sec5 p{
+    font-size: 14px;
+}
+
+@keyframes textpath {
+    form{transform: translateX(50%);}
+    to{transform: translateX(-2%);}
+  }

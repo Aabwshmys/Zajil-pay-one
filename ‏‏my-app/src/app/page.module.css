@@ -1,0 +1,187 @@
+.main{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav{
+  width:100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index:10;
+  background-color: rgb(46, 47, 49);
+}
+
+
+.nav img:hover{
+  cursor: pointer;
+}
+
+.sec1{
+  height: 35vh;
+  background-image: url('../../public/background-track.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  
+}
+
+.sec1 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+
+}
+.backback{
+  width: 100%;
+  height: 20vh;
+  position: absolute;
+  background: linear-gradient(to bottom, #0075ed, transparent);
+  top: 365px;
+}
+
+.backtow{
+  position: absolute;
+  top: 230px;
+  width: 100%;
+  height: 20vh;
+  background: linear-gradient(to top, #0075ed, transparent);
+}
+
+.sec1 div h3{
+  font-size: 16px;
+  margin-top: 80px;
+  color: rgb(250, 250, 250);
+
+  animation: textpath 5s ease-in-out;
+
+}
+.sec1 div p{
+  font-size: 12px;
+  width: 100%;
+  font-weight: 50;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  color: rgb(250, 250, 250);
+
+  animation: textpath 5s ease-in-out;
+}
+
+
+
+
+
+
+.sec1 div a{
+  padding: 5px ;
+  background-color: rgb(233, 120, 40);
+  border: none;
+  color: white;
+  position: absolute;
+  top:320px;
+  left:140px;
+  z-index: 100000000;
+}
+.sec2 {
+ background-color: white;
+ color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2 div{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sec2 div p{
+  margin: 25px 0;
+  font-size: 14px;
+  width:100%;
+  z-index: 1;
+}
+
+
+.sec3{
+  position: relative;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+}
+.sec3 .continer{
+  background-color: #f7f4f4;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+.sec3 .continer div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:  25px 0;
+  
+}
+
+.sec3 .continer div h2{
+  font-size: 12px;
+  margin: 20px 0;
+  
+}
+
+.sec3 .backthree{
+  position: absolute;
+  width: 100%;
+  height: 84vh;
+  background: linear-gradient(to top, #0075ed, transparent);
+  top: -124px;
+  z-index: 0;
+}
+
+.nav .parent{
+  position: absolute;
+  background-color: #ffffff7a;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 66px;
+  width: 100%;
+  z-index: 5;
+  height: 80vh;
+  backdrop-filter: blur(21px);
+}
+
+.parent a {
+margin: 10px 0;
+}
+
+.parent a:hover{
+  color: rgb(196, 171, 27);
+}
+
+.main div p{
+    width:100%;
+}
+@keyframes textpath {
+  form{transform: translateX(50%);}
+  to{transform: translateX(-2%);}
+}

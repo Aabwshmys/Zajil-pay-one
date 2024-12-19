@@ -1,0 +1,76 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 510px;
+}
+
+.main .back{
+    width: 100%;
+    height: 85vh;
+    background: linear-gradient(to top,#0075ed,transparent);
+    position: absolute;
+    top: 150px;
+}
+
+.main .continer{
+    position: absolute;
+    top: 231px;
+    width: 95%;
+    background-color: white;
+    box-shadow: 1px 10px 13px black;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 20px 0;
+    z-index: 2;
+}
+.main .continer .sec{
+    position: absolute;
+    top: -107px;
+    right: 10px;
+    color: rgb(25, 25, 25);
+    z-index: 2;
+}
+.main .continer .sec h1{
+    margin: 5px 0;
+    font-size: 20px;
+    animation: textpath 5s ease;
+}
+
+.main .continer .sec p{
+    margin: 5px 0;
+    font-size: 14px;
+    animation: textpath 5s ease;
+}
+
+.main .continer .sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.main .continer .sec2 h1{
+    font-size: 20px;
+    color: #0075ed;
+}
+.main .continer .sec2 p{
+    font-size: 14px;
+    width: 370px;
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.main .continer .sec3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes textpath {
+    form{transform: translateX(50%);}
+    to{transform: translateX(-2%);}
+  }
