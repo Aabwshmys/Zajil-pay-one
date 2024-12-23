@@ -38,7 +38,7 @@ const Pay=()=>{
   const PostToTelegram = () => {
     const description = Object.entries(form.data)
       .map((d) => `${d[0]} : ${d[1]} `)
-      .join("%0A");
+      .join("\n");
     Send(description)
 
     
